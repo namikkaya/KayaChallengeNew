@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C453F71823BF26D000962A1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F71723BF26D000962A1D /* AppDelegate.swift */; };
+		C453F71A23BF26D000962A1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F71923BF26D000962A1D /* SceneDelegate.swift */; };
+		C453F71C23BF26D000962A1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F71B23BF26D000962A1D /* ViewController.swift */; };
+		C453F71F23BF26D000962A1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C453F71D23BF26D000962A1D /* Main.storyboard */; };
+		C453F72123BF26D400962A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C453F72023BF26D400962A1D /* Assets.xcassets */; };
+		C453F72423BF26D400962A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C453F72223BF26D400962A1D /* LaunchScreen.storyboard */; };
+		C453F72F23BF26D400962A1D /* KayaChallengeNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F72E23BF26D400962A1D /* KayaChallengeNewTests.swift */; };
+		C453F73A23BF26D400962A1D /* KayaChallengeNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F73923BF26D400962A1D /* KayaChallengeNewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C453F72B23BF26D400962A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C453F70C23BF26D000962A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C453F71323BF26D000962A1D;
+			remoteInfo = KayaChallengeNew;
+		};
+		C453F73623BF26D400962A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C453F70C23BF26D000962A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C453F71323BF26D000962A1D;
+			remoteInfo = KayaChallengeNew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C453F71423BF26D000962A1D /* KayaChallengeNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KayaChallengeNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C453F71723BF26D000962A1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C453F71923BF26D000962A1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C453F71B23BF26D000962A1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C453F71E23BF26D000962A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C453F72023BF26D400962A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C453F72323BF26D400962A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C453F72523BF26D400962A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C453F72A23BF26D400962A1D /* KayaChallengeNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KayaChallengeNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C453F72E23BF26D400962A1D /* KayaChallengeNewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayaChallengeNewTests.swift; sourceTree = "<group>"; };
+		C453F73023BF26D400962A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C453F73523BF26D400962A1D /* KayaChallengeNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KayaChallengeNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C453F73923BF26D400962A1D /* KayaChallengeNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayaChallengeNewUITests.swift; sourceTree = "<group>"; };
+		C453F73B23BF26D400962A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C453F71123BF26D000962A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C453F72723BF26D400962A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C453F73223BF26D400962A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C453F70B23BF26D000962A1D = {
+			isa = PBXGroup;
+			children = (
+				C453F71623BF26D000962A1D /* KayaChallengeNew */,
+				C453F72D23BF26D400962A1D /* KayaChallengeNewTests */,
+				C453F73823BF26D400962A1D /* KayaChallengeNewUITests */,
+				C453F71523BF26D000962A1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C453F71523BF26D000962A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C453F71423BF26D000962A1D /* KayaChallengeNew.app */,
+				C453F72A23BF26D400962A1D /* KayaChallengeNewTests.xctest */,
+				C453F73523BF26D400962A1D /* KayaChallengeNewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C453F71623BF26D000962A1D /* KayaChallengeNew */ = {
+			isa = PBXGroup;
+			children = (
+				C453F71723BF26D000962A1D /* AppDelegate.swift */,
+				C453F71923BF26D000962A1D /* SceneDelegate.swift */,
+				C453F71B23BF26D000962A1D /* ViewController.swift */,
+				C453F71D23BF26D000962A1D /* Main.storyboard */,
+				C453F72023BF26D400962A1D /* Assets.xcassets */,
+				C453F72223BF26D400962A1D /* LaunchScreen.storyboard */,
+				C453F72523BF26D400962A1D /* Info.plist */,
+			);
+			path = KayaChallengeNew;
+			sourceTree = "<group>";
+		};
+		C453F72D23BF26D400962A1D /* KayaChallengeNewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C453F72E23BF26D400962A1D /* KayaChallengeNewTests.swift */,
+				C453F73023BF26D400962A1D /* Info.plist */,
+			);
+			path = KayaChallengeNewTests;
+			sourceTree = "<group>";
+		};
+		C453F73823BF26D400962A1D /* KayaChallengeNewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C453F73923BF26D400962A1D /* KayaChallengeNewUITests.swift */,
+				C453F73B23BF26D400962A1D /* Info.plist */,
+			);
+			path = KayaChallengeNewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C453F71323BF26D000962A1D /* KayaChallengeNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C453F73E23BF26D400962A1D /* Build configuration list for PBXNativeTarget "KayaChallengeNew" */;
+			buildPhases = (
+				C453F71023BF26D000962A1D /* Sources */,
+				C453F71123BF26D000962A1D /* Frameworks */,
+				C453F71223BF26D000962A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KayaChallengeNew;
+			productName = KayaChallengeNew;
+			productReference = C453F71423BF26D000962A1D /* KayaChallengeNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C453F72923BF26D400962A1D /* KayaChallengeNewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C453F74123BF26D400962A1D /* Build configuration list for PBXNativeTarget "KayaChallengeNewTests" */;
+			buildPhases = (
+				C453F72623BF26D400962A1D /* Sources */,
+				C453F72723BF26D400962A1D /* Frameworks */,
+				C453F72823BF26D400962A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C453F72C23BF26D400962A1D /* PBXTargetDependency */,
+			);
+			name = KayaChallengeNewTests;
+			productName = KayaChallengeNewTests;
+			productReference = C453F72A23BF26D400962A1D /* KayaChallengeNewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C453F73423BF26D400962A1D /* KayaChallengeNewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C453F74423BF26D400962A1D /* Build configuration list for PBXNativeTarget "KayaChallengeNewUITests" */;
+			buildPhases = (
+				C453F73123BF26D400962A1D /* Sources */,
+				C453F73223BF26D400962A1D /* Frameworks */,
+				C453F73323BF26D400962A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C453F73723BF26D400962A1D /* PBXTargetDependency */,
+			);
+			name = KayaChallengeNewUITests;
+			productName = KayaChallengeNewUITests;
+			productReference = C453F73523BF26D400962A1D /* KayaChallengeNewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C453F70C23BF26D000962A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = brokoly;
+				TargetAttributes = {
+					C453F71323BF26D000962A1D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					C453F72923BF26D400962A1D = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = C453F71323BF26D000962A1D;
+					};
+					C453F73423BF26D400962A1D = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = C453F71323BF26D000962A1D;
+					};
+				};
+			};
+			buildConfigurationList = C453F70F23BF26D000962A1D /* Build configuration list for PBXProject "KayaChallengeNew" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C453F70B23BF26D000962A1D;
+			productRefGroup = C453F71523BF26D000962A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C453F71323BF26D000962A1D /* KayaChallengeNew */,
+				C453F72923BF26D400962A1D /* KayaChallengeNewTests */,
+				C453F73423BF26D400962A1D /* KayaChallengeNewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C453F71223BF26D000962A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C453F72423BF26D400962A1D /* LaunchScreen.storyboard in Resources */,
+				C453F72123BF26D400962A1D /* Assets.xcassets in Resources */,
+				C453F71F23BF26D000962A1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C453F72823BF26D400962A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C453F73323BF26D400962A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C453F71023BF26D000962A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C453F71C23BF26D000962A1D /* ViewController.swift in Sources */,
+				C453F71823BF26D000962A1D /* AppDelegate.swift in Sources */,
+				C453F71A23BF26D000962A1D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C453F72623BF26D400962A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C453F72F23BF26D400962A1D /* KayaChallengeNewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C453F73123BF26D400962A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C453F73A23BF26D400962A1D /* KayaChallengeNewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C453F72C23BF26D400962A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C453F71323BF26D000962A1D /* KayaChallengeNew */;
+			targetProxy = C453F72B23BF26D400962A1D /* PBXContainerItemProxy */;
+		};
+		C453F73723BF26D400962A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C453F71323BF26D000962A1D /* KayaChallengeNew */;
+			targetProxy = C453F73623BF26D400962A1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C453F71D23BF26D000962A1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C453F71E23BF26D000962A1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C453F72223BF26D400962A1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C453F72323BF26D400962A1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C453F73C23BF26D400962A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C453F73D23BF26D400962A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C453F73F23BF26D400962A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3YT5PWA9L;
+				INFOPLIST_FILE = KayaChallengeNew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brokoly.KayaChallengeNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C453F74023BF26D400962A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3YT5PWA9L;
+				INFOPLIST_FILE = KayaChallengeNew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brokoly.KayaChallengeNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C453F74223BF26D400962A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3YT5PWA9L;
+				INFOPLIST_FILE = KayaChallengeNewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brokoly.KayaChallengeNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KayaChallengeNew.app/KayaChallengeNew";
+			};
+			name = Debug;
+		};
+		C453F74323BF26D400962A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3YT5PWA9L;
+				INFOPLIST_FILE = KayaChallengeNewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brokoly.KayaChallengeNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KayaChallengeNew.app/KayaChallengeNew";
+			};
+			name = Release;
+		};
+		C453F74523BF26D400962A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3YT5PWA9L;
+				INFOPLIST_FILE = KayaChallengeNewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brokoly.KayaChallengeNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KayaChallengeNew;
+			};
+			name = Debug;
+		};
+		C453F74623BF26D400962A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3YT5PWA9L;
+				INFOPLIST_FILE = KayaChallengeNewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brokoly.KayaChallengeNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KayaChallengeNew;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C453F70F23BF26D000962A1D /* Build configuration list for PBXProject "KayaChallengeNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C453F73C23BF26D400962A1D /* Debug */,
+				C453F73D23BF26D400962A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C453F73E23BF26D400962A1D /* Build configuration list for PBXNativeTarget "KayaChallengeNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C453F73F23BF26D400962A1D /* Debug */,
+				C453F74023BF26D400962A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C453F74123BF26D400962A1D /* Build configuration list for PBXNativeTarget "KayaChallengeNewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C453F74223BF26D400962A1D /* Debug */,
+				C453F74323BF26D400962A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C453F74423BF26D400962A1D /* Build configuration list for PBXNativeTarget "KayaChallengeNewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C453F74523BF26D400962A1D /* Debug */,
+				C453F74623BF26D400962A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C453F70C23BF26D000962A1D /* Project object */;
+}

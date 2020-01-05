@@ -56,13 +56,4 @@ class placeListViewController: BaseViewController, placeCollectionViewManagerDel
                   transition: self.preloaderTranstionDelegate)
     }
 
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if (segue.identifier == "detailViewControllerSegue") {
-            if let destinationController = segue.destination as? placeListViewController {
-                destinationController.transitioningDelegate = self.preloaderTranstionDelegate
-                destinationController.modalPresentationStyle = .overFullScreen
-            }
-        }
-    }
 }

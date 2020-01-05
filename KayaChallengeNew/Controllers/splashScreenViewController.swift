@@ -30,7 +30,11 @@ class splashScreenViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         DispatchQueue.main.asyncAfter(wallDeadline: DispatchWallTime.now() + 2) {
-            self.goto(screenID: "myMainNavigation", animated: true, data: nil, isModal: true, transition: self.transition)
+            self.goto(screenID: "myMainNavigation",
+                      animated: true,
+                      data: nil,
+                      isModal: true,
+                      transition: self.transition)
         }
         
         

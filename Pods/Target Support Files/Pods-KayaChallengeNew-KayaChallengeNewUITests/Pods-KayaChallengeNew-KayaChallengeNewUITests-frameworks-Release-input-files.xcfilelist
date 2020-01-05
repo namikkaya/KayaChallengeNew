@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-KayaChallengeNew-KayaChallengeNewUITests/Pods-KayaChallengeNew-KayaChallengeNewUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FoursquareAPIClient/FoursquareAPIClient.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework

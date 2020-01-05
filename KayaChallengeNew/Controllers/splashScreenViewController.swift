@@ -21,13 +21,10 @@ class splashScreenViewController: UIViewController {
                 , delay: 0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
                     self.logoImage.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
                     self.logoImage.alpha = 0.1
-                    //self.view.layoutIfNeeded()
             }) { (act) in
                 
             }
         }
-
-        
     }
     
     override func viewDidAppear(_ animated: Bool) {

@@ -107,14 +107,23 @@ class detailViewController: BaseViewController {
         super.viewDidDisappear(animated)
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        let overlays = mapView.overlays
+        mapView.removeOverlays(overlays)
+        print("willdisappear")
+        
+       
+    }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let touch: UITouch? = touches.first
         if touch?.view == self.view {
-            self.dismiss(animated: true, completion: nil)
+            exitViewController()
         }
     }
     
     private func exitViewController() {
-        self.dismiss(animated: true, completion: nil)
+        self.back(animated: true, isModal: true)
     }
 }

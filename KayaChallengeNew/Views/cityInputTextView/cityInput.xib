@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="cityInput" customModule="KayaChallengeNew" customModuleProvider="target">
+            <connections>
+                <outlet property="inputText" destination="82n-HF-8hj" id="wau-s8-dwl"/>
+                <outlet property="searchButton" destination="sYk-VO-XTF" id="r3F-LA-txm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="543" height="152"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Şehir giriniz" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="82n-HF-8hj" customClass="kayaCustomTextField" customModule="KayaChallengeNew" customModuleProvider="target">
+                    <rect key="frame" x="20" y="8" width="503" height="64"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="search" textContentType="address-level1+2"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYk-VO-XTF">
+                    <rect key="frame" x="20" y="80" width="503" height="64"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Ara">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="searchButtonEvent:" destination="-1" eventType="touchUpInside" id="tfT-hl-3as"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="sYk-VO-XTF" secondAttribute="bottom" constant="8" id="89N-vX-73j"/>
+                <constraint firstItem="sYk-VO-XTF" firstAttribute="top" secondItem="82n-HF-8hj" secondAttribute="bottom" constant="8" id="9ps-uC-TMI"/>
+                <constraint firstItem="82n-HF-8hj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="AL4-JS-2Yf"/>
+                <constraint firstItem="sYk-VO-XTF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="AWD-lu-AlO"/>
+                <constraint firstItem="82n-HF-8hj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="Amz-9P-m7l"/>
+                <constraint firstItem="sYk-VO-XTF" firstAttribute="height" secondItem="82n-HF-8hj" secondAttribute="height" id="J7V-sh-ggf"/>
+                <constraint firstAttribute="trailing" secondItem="sYk-VO-XTF" secondAttribute="trailing" constant="20" id="TNR-z4-guS"/>
+                <constraint firstAttribute="trailing" secondItem="82n-HF-8hj" secondAttribute="trailing" constant="20" id="VSV-8v-dKv"/>
+                <constraint firstItem="sYk-VO-XTF" firstAttribute="width" secondItem="82n-HF-8hj" secondAttribute="width" id="oJ6-Ii-ygs"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-29.710144927536234" y="-168.41517857142856"/>
+        </view>
+    </objects>
+</document>

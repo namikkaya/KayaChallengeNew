@@ -2,12 +2,13 @@
 //  SceneDelegate.swift
 //  KayaChallengeNew
 //
-//  Created by Nok Danışmanlık on 3.01.2020.
+//  Created by Nok Danışmanlık on 4.01.2020.
 //  Copyright © 2020 brokoly. All rights reserved.
 //
 
 import UIKit
 
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?

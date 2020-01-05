@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FFF302D040A669B7810907D /* Pods_KayaChallengeNew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425BD06632FEDA5F2B06CAA2 /* Pods_KayaChallengeNew.framework */; };
+		824CEFA89BA8825B2DA99026 /* Pods_KayaChallengeNewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C19A327B47DF77A59443679 /* Pods_KayaChallengeNewTests.framework */; };
 		C453F71823BF26D000962A1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F71723BF26D000962A1D /* AppDelegate.swift */; };
 		C453F71A23BF26D000962A1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F71923BF26D000962A1D /* SceneDelegate.swift */; };
 		C453F71C23BF26D000962A1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F71B23BF26D000962A1D /* ViewController.swift */; };
@@ -15,6 +17,27 @@
 		C453F72423BF26D400962A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C453F72223BF26D400962A1D /* LaunchScreen.storyboard */; };
 		C453F72F23BF26D400962A1D /* KayaChallengeNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F72E23BF26D400962A1D /* KayaChallengeNewTests.swift */; };
 		C453F73A23BF26D400962A1D /* KayaChallengeNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F73923BF26D400962A1D /* KayaChallengeNewUITests.swift */; };
+		C453F74A23BF277E00962A1D /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F74923BF277E00962A1D /* mainViewController.swift */; };
+		C453F74D23BF295900962A1D /* ReachbilityPopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F74C23BF295900962A1D /* ReachbilityPopupController.swift */; };
+		C453F74F23BF3AD700962A1D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F74E23BF3AD700962A1D /* BaseViewController.swift */; };
+		C453F75223BF3B2F00962A1D /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F75123BF3B2F00962A1D /* extensions.swift */; };
+		C453F75423BF455600962A1D /* reachbilityTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F75323BF455600962A1D /* reachbilityTransition.swift */; };
+		C453F75723BF534700962A1D /* cityInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = C453F75623BF534700962A1D /* cityInput.xib */; };
+		C453F75923BF56FB00962A1D /* cityInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F75823BF56FB00962A1D /* cityInput.swift */; };
+		C453F75B23BF691900962A1D /* kayaCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F75A23BF691900962A1D /* kayaCustomTextField.swift */; };
+		C453F75D23BFA2AA00962A1D /* placeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F75C23BFA2AA00962A1D /* placeListViewController.swift */; };
+		C453F75F23BFB2AE00962A1D /* placeCollectionViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F75E23BFB2AE00962A1D /* placeCollectionViewManager.swift */; };
+		C453F76223BFB34300962A1D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F76123BFB34300962A1D /* Models.swift */; };
+		C453F76523BFB6B700962A1D /* placeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C453F76423BFB6B700962A1D /* placeCell.xib */; };
+		C453F76723BFB6EC00962A1D /* placeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F76623BFB6EC00962A1D /* placeCell.swift */; };
+		C453F76923BFDFCF00962A1D /* preloaderPopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F76823BFDFCF00962A1D /* preloaderPopupController.swift */; };
+		C453F76B23BFFB2200962A1D /* preloderTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F76A23BFFB2200962A1D /* preloderTransition.swift */; };
+		C453F76D23C08C5500962A1D /* dataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F76C23C08C5500962A1D /* dataHolder.swift */; };
+		C453F77123C0C3FD00962A1D /* serviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F77023C0C3FD00962A1D /* serviceManager.swift */; };
+		C453F77323C1CAE200962A1D /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F77223C1CAE200962A1D /* detailViewController.swift */; };
+		C453F77523C21A7600962A1D /* splashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F77423C21A7600962A1D /* splashScreenViewController.swift */; };
+		C453F77723C21EF100962A1D /* splashScreenTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453F77623C21EF100962A1D /* splashScreenTransition.swift */; };
+		D7EBE21B9777D976A0A39D9F /* Pods_KayaChallengeNew_KayaChallengeNewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B8200A96FDA06577CF47EE /* Pods_KayaChallengeNew_KayaChallengeNewUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C45A648186A440D82C9EA92 /* Pods-KayaChallengeNewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayaChallengeNewTests.debug.xcconfig"; path = "Target Support Files/Pods-KayaChallengeNewTests/Pods-KayaChallengeNewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		425BD06632FEDA5F2B06CAA2 /* Pods_KayaChallengeNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KayaChallengeNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5999FF12C9427542B4A2BE57 /* Pods-KayaChallengeNew-KayaChallengeNewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayaChallengeNew-KayaChallengeNewUITests.debug.xcconfig"; path = "Target Support Files/Pods-KayaChallengeNew-KayaChallengeNewUITests/Pods-KayaChallengeNew-KayaChallengeNewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67EF084F6BDEF3CD0381C7E3 /* Pods-KayaChallengeNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayaChallengeNew.release.xcconfig"; path = "Target Support Files/Pods-KayaChallengeNew/Pods-KayaChallengeNew.release.xcconfig"; sourceTree = "<group>"; };
+		7C19A327B47DF77A59443679 /* Pods_KayaChallengeNewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KayaChallengeNewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A7DA7514B63E5DAD140CB0 /* Pods-KayaChallengeNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayaChallengeNew.debug.xcconfig"; path = "Target Support Files/Pods-KayaChallengeNew/Pods-KayaChallengeNew.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B8200A96FDA06577CF47EE /* Pods_KayaChallengeNew_KayaChallengeNewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KayaChallengeNew_KayaChallengeNewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81766CDCD41349DE014955D /* Pods-KayaChallengeNewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayaChallengeNewTests.release.xcconfig"; path = "Target Support Files/Pods-KayaChallengeNewTests/Pods-KayaChallengeNewTests.release.xcconfig"; sourceTree = "<group>"; };
 		C453F71423BF26D000962A1D /* KayaChallengeNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KayaChallengeNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C453F71723BF26D000962A1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C453F71923BF26D000962A1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +80,27 @@
 		C453F73523BF26D400962A1D /* KayaChallengeNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KayaChallengeNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C453F73923BF26D400962A1D /* KayaChallengeNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayaChallengeNewUITests.swift; sourceTree = "<group>"; };
 		C453F73B23BF26D400962A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C453F74923BF277E00962A1D /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		C453F74C23BF295900962A1D /* ReachbilityPopupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachbilityPopupController.swift; sourceTree = "<group>"; };
+		C453F74E23BF3AD700962A1D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C453F75123BF3B2F00962A1D /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		C453F75323BF455600962A1D /* reachbilityTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reachbilityTransition.swift; sourceTree = "<group>"; };
+		C453F75623BF534700962A1D /* cityInput.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cityInput.xib; sourceTree = "<group>"; };
+		C453F75823BF56FB00962A1D /* cityInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cityInput.swift; sourceTree = "<group>"; };
+		C453F75A23BF691900962A1D /* kayaCustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kayaCustomTextField.swift; sourceTree = "<group>"; };
+		C453F75C23BFA2AA00962A1D /* placeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeListViewController.swift; sourceTree = "<group>"; };
+		C453F75E23BFB2AE00962A1D /* placeCollectionViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeCollectionViewManager.swift; sourceTree = "<group>"; };
+		C453F76123BFB34300962A1D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C453F76423BFB6B700962A1D /* placeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = placeCell.xib; sourceTree = "<group>"; };
+		C453F76623BFB6EC00962A1D /* placeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeCell.swift; sourceTree = "<group>"; };
+		C453F76823BFDFCF00962A1D /* preloaderPopupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preloaderPopupController.swift; sourceTree = "<group>"; };
+		C453F76A23BFFB2200962A1D /* preloderTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preloderTransition.swift; sourceTree = "<group>"; };
+		C453F76C23C08C5500962A1D /* dataHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataHolder.swift; sourceTree = "<group>"; };
+		C453F77023C0C3FD00962A1D /* serviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serviceManager.swift; sourceTree = "<group>"; };
+		C453F77223C1CAE200962A1D /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		C453F77423C21A7600962A1D /* splashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreenViewController.swift; sourceTree = "<group>"; };
+		C453F77623C21EF100962A1D /* splashScreenTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreenTransition.swift; sourceTree = "<group>"; };
+		DBD1A47ADAA63173ED1FA671 /* Pods-KayaChallengeNew-KayaChallengeNewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KayaChallengeNew-KayaChallengeNewUITests.release.xcconfig"; path = "Target Support Files/Pods-KayaChallengeNew-KayaChallengeNewUITests/Pods-KayaChallengeNew-KayaChallengeNewUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FFF302D040A669B7810907D /* Pods_KayaChallengeNew.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824CEFA89BA8825B2DA99026 /* Pods_KayaChallengeNewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +124,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7EBE21B9777D976A0A39D9F /* Pods_KayaChallengeNew_KayaChallengeNewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6B59B964239D15E1AECE315 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86A7DA7514B63E5DAD140CB0 /* Pods-KayaChallengeNew.debug.xcconfig */,
+				67EF084F6BDEF3CD0381C7E3 /* Pods-KayaChallengeNew.release.xcconfig */,
+				5999FF12C9427542B4A2BE57 /* Pods-KayaChallengeNew-KayaChallengeNewUITests.debug.xcconfig */,
+				DBD1A47ADAA63173ED1FA671 /* Pods-KayaChallengeNew-KayaChallengeNewUITests.release.xcconfig */,
+				2C45A648186A440D82C9EA92 /* Pods-KayaChallengeNewTests.debug.xcconfig */,
+				B81766CDCD41349DE014955D /* Pods-KayaChallengeNewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B7A980D60FAADE87E66FEF6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				425BD06632FEDA5F2B06CAA2 /* Pods_KayaChallengeNew.framework */,
+				B7B8200A96FDA06577CF47EE /* Pods_KayaChallengeNew_KayaChallengeNewUITests.framework */,
+				7C19A327B47DF77A59443679 /* Pods_KayaChallengeNewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C453F70B23BF26D000962A1D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +161,8 @@
 				C453F72D23BF26D400962A1D /* KayaChallengeNewTests */,
 				C453F73823BF26D400962A1D /* KayaChallengeNewUITests */,
 				C453F71523BF26D000962A1D /* Products */,
+				B6B59B964239D15E1AECE315 /* Pods */,
+				B7A980D60FAADE87E66FEF6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +179,10 @@
 		C453F71623BF26D000962A1D /* KayaChallengeNew */ = {
 			isa = PBXGroup;
 			children = (
+				C453F76023BFB31D00962A1D /* Models */,
+				C453F75023BF3B1C00962A1D /* lib */,
+				C453F74823BF274A00962A1D /* Views */,
+				C453F74723BF273E00962A1D /* Controllers */,
 				C453F71723BF26D000962A1D /* AppDelegate.swift */,
 				C453F71923BF26D000962A1D /* SceneDelegate.swift */,
 				C453F71B23BF26D000962A1D /* ViewController.swift */,
@@ -128,6 +212,78 @@
 			path = KayaChallengeNewUITests;
 			sourceTree = "<group>";
 		};
+		C453F74723BF273E00962A1D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C453F74B23BF27D400962A1D /* HelperControllers */,
+				C453F74923BF277E00962A1D /* mainViewController.swift */,
+				C453F75C23BFA2AA00962A1D /* placeListViewController.swift */,
+				C453F77223C1CAE200962A1D /* detailViewController.swift */,
+				C453F77423C21A7600962A1D /* splashScreenViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C453F74823BF274A00962A1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C453F76323BFB69D00962A1D /* placeCellView */,
+				C453F75523BF52E900962A1D /* cityInputTextView */,
+				C453F75A23BF691900962A1D /* kayaCustomTextField.swift */,
+				C453F75E23BFB2AE00962A1D /* placeCollectionViewManager.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C453F74B23BF27D400962A1D /* HelperControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C453F74C23BF295900962A1D /* ReachbilityPopupController.swift */,
+				C453F74E23BF3AD700962A1D /* BaseViewController.swift */,
+				C453F76823BFDFCF00962A1D /* preloaderPopupController.swift */,
+			);
+			path = HelperControllers;
+			sourceTree = "<group>";
+		};
+		C453F75023BF3B1C00962A1D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C453F75123BF3B2F00962A1D /* extensions.swift */,
+				C453F75323BF455600962A1D /* reachbilityTransition.swift */,
+				C453F76C23C08C5500962A1D /* dataHolder.swift */,
+				C453F77023C0C3FD00962A1D /* serviceManager.swift */,
+				C453F76A23BFFB2200962A1D /* preloderTransition.swift */,
+				C453F77623C21EF100962A1D /* splashScreenTransition.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		C453F75523BF52E900962A1D /* cityInputTextView */ = {
+			isa = PBXGroup;
+			children = (
+				C453F75623BF534700962A1D /* cityInput.xib */,
+				C453F75823BF56FB00962A1D /* cityInput.swift */,
+			);
+			path = cityInputTextView;
+			sourceTree = "<group>";
+		};
+		C453F76023BFB31D00962A1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C453F76123BFB34300962A1D /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C453F76323BFB69D00962A1D /* placeCellView */ = {
+			isa = PBXGroup;
+			children = (
+				C453F76423BFB6B700962A1D /* placeCell.xib */,
+				C453F76623BFB6EC00962A1D /* placeCell.swift */,
+			);
+			path = placeCellView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C453F73E23BF26D400962A1D /* Build configuration list for PBXNativeTarget "KayaChallengeNew" */;
 			buildPhases = (
+				8B0E115AC5F8287219325323 /* [CP] Check Pods Manifest.lock */,
 				C453F71023BF26D000962A1D /* Sources */,
 				C453F71123BF26D000962A1D /* Frameworks */,
 				C453F71223BF26D000962A1D /* Resources */,
+				ACE7CE9D5BC788D6C2FA16C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +310,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C453F74123BF26D400962A1D /* Build configuration list for PBXNativeTarget "KayaChallengeNewTests" */;
 			buildPhases = (
+				6B2E3A9BCB41F1DEAFFF1F8A /* [CP] Check Pods Manifest.lock */,
 				C453F72623BF26D400962A1D /* Sources */,
 				C453F72723BF26D400962A1D /* Frameworks */,
 				C453F72823BF26D400962A1D /* Resources */,
@@ -170,9 +329,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C453F74423BF26D400962A1D /* Build configuration list for PBXNativeTarget "KayaChallengeNewUITests" */;
 			buildPhases = (
+				939876276C3B99DD7D489853 /* [CP] Check Pods Manifest.lock */,
 				C453F73123BF26D400962A1D /* Sources */,
 				C453F73223BF26D400962A1D /* Frameworks */,
 				C453F73323BF26D400962A1D /* Resources */,
+				28EAC361416B8392789F987F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +393,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C453F76523BFB6B700962A1D /* placeCell.xib in Resources */,
 				C453F72423BF26D400962A1D /* LaunchScreen.storyboard in Resources */,
 				C453F72123BF26D400962A1D /* Assets.xcassets in Resources */,
 				C453F71F23BF26D000962A1D /* Main.storyboard in Resources */,
+				C453F75723BF534700962A1D /* cityInput.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +417,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28EAC361416B8392789F987F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KayaChallengeNew-KayaChallengeNewUITests/Pods-KayaChallengeNew-KayaChallengeNewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KayaChallengeNew-KayaChallengeNewUITests/Pods-KayaChallengeNew-KayaChallengeNewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KayaChallengeNew-KayaChallengeNewUITests/Pods-KayaChallengeNew-KayaChallengeNewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B2E3A9BCB41F1DEAFFF1F8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KayaChallengeNewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B0E115AC5F8287219325323 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KayaChallengeNew-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		939876276C3B99DD7D489853 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KayaChallengeNew-KayaChallengeNewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE7CE9D5BC788D6C2FA16C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KayaChallengeNew/Pods-KayaChallengeNew-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KayaChallengeNew/Pods-KayaChallengeNew-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KayaChallengeNew/Pods-KayaChallengeNew-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C453F71023BF26D000962A1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C453F75F23BFB2AE00962A1D /* placeCollectionViewManager.swift in Sources */,
+				C453F77323C1CAE200962A1D /* detailViewController.swift in Sources */,
+				C453F76D23C08C5500962A1D /* dataHolder.swift in Sources */,
+				C453F76723BFB6EC00962A1D /* placeCell.swift in Sources */,
+				C453F76223BFB34300962A1D /* Models.swift in Sources */,
 				C453F71C23BF26D000962A1D /* ViewController.swift in Sources */,
+				C453F75423BF455600962A1D /* reachbilityTransition.swift in Sources */,
+				C453F75D23BFA2AA00962A1D /* placeListViewController.swift in Sources */,
+				C453F75923BF56FB00962A1D /* cityInput.swift in Sources */,
 				C453F71823BF26D000962A1D /* AppDelegate.swift in Sources */,
+				C453F77523C21A7600962A1D /* splashScreenViewController.swift in Sources */,
 				C453F71A23BF26D000962A1D /* SceneDelegate.swift in Sources */,
+				C453F76923BFDFCF00962A1D /* preloaderPopupController.swift in Sources */,
+				C453F75223BF3B2F00962A1D /* extensions.swift in Sources */,
+				C453F77723C21EF100962A1D /* splashScreenTransition.swift in Sources */,
+				C453F76B23BFFB2200962A1D /* preloderTransition.swift in Sources */,
+				C453F75B23BF691900962A1D /* kayaCustomTextField.swift in Sources */,
+				C453F74D23BF295900962A1D /* ReachbilityPopupController.swift in Sources */,
+				C453F74A23BF277E00962A1D /* mainViewController.swift in Sources */,
+				C453F77123C0C3FD00962A1D /* serviceManager.swift in Sources */,
+				C453F74F23BF3AD700962A1D /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +716,13 @@
 		};
 		C453F73F23BF26D400962A1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A7DA7514B63E5DAD140CB0 /* Pods-KayaChallengeNew.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3YT5PWA9L;
 				INFOPLIST_FILE = KayaChallengeNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +736,13 @@
 		};
 		C453F74023BF26D400962A1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67EF084F6BDEF3CD0381C7E3 /* Pods-KayaChallengeNew.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3YT5PWA9L;
 				INFOPLIST_FILE = KayaChallengeNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +756,7 @@
 		};
 		C453F74223BF26D400962A1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C45A648186A440D82C9EA92 /* Pods-KayaChallengeNewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +779,7 @@
 		};
 		C453F74323BF26D400962A1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81766CDCD41349DE014955D /* Pods-KayaChallengeNewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +802,7 @@
 		};
 		C453F74523BF26D400962A1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5999FF12C9427542B4A2BE57 /* Pods-KayaChallengeNew-KayaChallengeNewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +823,7 @@
 		};
 		C453F74623BF26D400962A1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD1A47ADAA63173ED1FA671 /* Pods-KayaChallengeNew-KayaChallengeNewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
